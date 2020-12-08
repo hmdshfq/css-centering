@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #4356bc;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+  background-color: #bc4356;
+  color: azure;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.parent h2 {
+  padding-bottom: 20px;
+}
+
+.child {
+  resize: both;
+  overflow: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #56bc43;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

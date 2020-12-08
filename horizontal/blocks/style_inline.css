@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #107a8b;
+  text-align: center;
+  padding: 20px;
+}
+
+.item1,
+.item2,
+.item3 {
+  display: inline-block;
+  background-color: #2cb978;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  width: 200px;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+}

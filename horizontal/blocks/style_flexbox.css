@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #107a8b;
+  padding: 20px;
+}
+
+.item1,
+.item2,
+.item3 {
+  padding: 20px;
+  margin: 10px;
+  background-color: #2cb978;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: left;
+}
